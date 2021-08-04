@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* THIS IS FIRST */
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+  /* background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%); */
+  background-color: #fff;
+}
+nav {
+  font-family: "Varela Round", sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  font-size: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+li a:hover {
+  background: linear-gradient(45deg, #a700ff, #4d19db);
+}
+.logo {
+  width: 50em;
+  height: 45em;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  justify-content: space-between;
+  font-family: 'Oxygen', sans-serif;
+}
+.col-1 {
+  flex-basis: 40%;
+  min-width: 300px;
+  margin-bottom: 30px;
+}
+.col-2 {
+  flex-basis: 55%;
+  min-width: 300px;
+  margin-bottom: 30px;
+  margin-top: 5%;
+}
+.col-1 img {
+  width: 130%;
+}
+.col-2 p {
+  margin-left: 80px;
+  font-weight: 200;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.col-2 h1 {
+  margin-left: 80px;
+  /* font-weight: 200;
+    font-size: large; */
+  margin-top: 50px;
+  color: #4d19db;
+}
+.name {
+  color: crimson;
+}
+.name:hover {
+  color: blue;
+}
+
+/* THIS IS SECOND PAGE */
+.second {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bolder;
+}
+.second h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: crimson;
+}
+.second p {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 25px;
+  color: #000;
+}
+
+/* THIS IS THIRD */
+.third {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bolder;
+}
+.third h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: crimson;
+}
+.third p {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 25px;
+  color: #000;
+}
+.op {
+  margin-right: 960px;
+  margin-top: 10px;
+  font-size: 30px;
+  color: crimson;
+}
+.img {
+  width: 80em;
+  margin-left: 80px;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+.third .ip {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 25px;
+  color: #000;
+  margin-top: 20px;
+}
+.footer {
+  background-color: #000;
+  text-align: center;
+  padding: 15px;
+  margin-top: 15px;
+}
+.footer .last {
+  color: azure;
+  font-size: 20px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* Fixed Navigation Bar */
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.dropbtn {
+  background: linear-gradient(45deg, #a700ff, #4d19db);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Oxygen', sans-serif;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 654px;
+  font-family: 'Oxygen', sans-serif;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: floralwhite;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: crimson;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #fff;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #fff;
+}
+
+/* New name colour boi */
+span {
+  color: crimson;
+}
+.container {
+  /* Background and color */
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.7);
+
+  /* Bottom shadow */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px -2px 0px inset, 
+              rgba(0, 0, 0, 0.4) 0px 1px 1px;
+
+  /* Spacing */
+  padding: 8px;
+  margin-left: 20px;
+}
+.press{
+  font-weight: bold;
+  font-size:20px;
+  margin-top: 15px;
+  margin-left: 20px;
+
+
+}
+.container-1 {
+  /* Background and color */
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.7);
+
+  /* Bottom shadow */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px -2px 0px inset, 
+              rgba(0, 0, 0, 0.4) 0px 1px 1px;
+
+  /* Spacing */
+  padding: 8px;
+  margin-left: 85rem;
+}
+.press-1{
+  font-weight: bold;
+  font-size:20px;
+  margin-top: 15px;
+  margin-left: 68rem;
+
+
+}
+
